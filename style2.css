@@ -1,0 +1,103 @@
+body {
+  margin: 0 auto;
+  font-family: lucida console;
+  background-color: OldLace;
+}
+.verh {
+  width: 100%;
+  z-index: 2;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  background-color: OldLace;
+}
+.logo {
+  width: 70px;
+  height: 100%;
+}
+.navigac {
+  margin-right: 200px;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+a {
+  text-decoration: none;
+  border: 2px solid black;
+  border-radius: 20px;
+  width: 160px;
+  text-align: center;
+  color: black;
+  background-color: Snow;
+  padding: 10px;
+  border: 2px solid black;
+}
+
+h1 {
+  text-align: center;
+}
+.navig {
+  text-align: center;
+  height: 50px;
+}
+.menu {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.bludo {
+  width: 350px;
+  height: 280px;
+  border: 2px solid black;
+  border-radius: 0 0 15px 15px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: Snow;
+}
+.photoo {
+  width: 98%;
+  height: 170px;
+  margin: 0 auto;
+  margin-top: 5px;
+}
+.photo {
+  width: 100%;
+  height: 100%;
+}
+h2 {
+  text-align: center;
+}
+.bludo1 {
+  width: 350px;
+  height: 280px;
+  border: 2px solid black;
+  border-radius: 0 0 15px 15px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: Snow;
+}
+.vibor {
+  height: 30px;
+  width: 30px;
+  position: absolute;
+}
+@media (max-width: 500px) {
+  h1{
+    margin-top: 140px;
+  }
+    .navigac{
+    margin-left: 150px;
+    background-color: OldLace;
+    }
+    .logo{
+      display: none;
+    }
+    .verh{
+      height: 200px;
+    }
+  }

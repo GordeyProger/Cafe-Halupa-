@@ -1,0 +1,72 @@
+body {
+  background: OldLace;
+  font-family: lucida console;
+}
+.verh {
+  width: 100%;
+  z-index: 2;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  background-color: OldLace;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  border: 2px solid black;
+  border-radius: 20px;
+  width: 160px;
+  text-align: center;
+  color: black;
+  background-color: Snow;
+  padding: 10px;
+}
+.navigac {
+  margin-right: 200px;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.logo {
+  width: 80px;
+  height: 100%;
+}
+.opis {
+  border: 2px solid black;
+  width: 100%;
+  margin-left: 30px;
+}
+span {
+  margin-left: 40px;
+}
+td {
+  border: 2px solid black;
+  width: 100px;
+}
+table {
+  border: 2px solid black;
+  margin-top: 40px;
+  border-collapse: collapse;
+}
+.spani {
+  margin-left: 50px;
+}
+h1 {
+  text-align: center;
+}
+@media (max-width: 500px) {
+  h1{
+    margin-top: 160px;
+  }
+    .navigac{
+    margin-left: 150px;
+    background-color: OldLace;
+    }
+    .logo{
+      display: none;
+    }
+    .verh{
+      height: 200px;
+    }
+  }
